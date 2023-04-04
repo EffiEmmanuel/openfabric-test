@@ -43,7 +43,7 @@ public class WorkerController {
     }
 
     // This route stops a worker
-    @GetMapping(path = "/stop-worker")
+    @PostMapping(path = "/stop-worker")
     public String stopWorker (@RequestParam String workerId) {
         return workerService.stopWorker(workerId);
     }
