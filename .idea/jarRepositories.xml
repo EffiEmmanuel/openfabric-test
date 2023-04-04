@@ -51,5 +51,10 @@
       <option name="name" value="maven" />
       <option name="url" value="https://maven.openfabric.ai/releases" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenLocal" />
+      <option name="name" value="MavenLocal" />
+      <option name="url" value="file:/$PROJECT_DIR$/../../../../../../../Ayodele's%20PC/.m2/repository/" />
+    </remote-repository>
   </component>
 </project>
